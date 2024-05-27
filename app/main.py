@@ -18,7 +18,7 @@ def include_router(app: FastAPI):
 
 def set_cors(app):
     originls_ = [
-        "localhost:8000",
+        "*"
     ]
 
     app.add_middleware(
