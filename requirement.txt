@@ -1,0 +1,12 @@
+fastapi
+pydantic
+uvicorn
+sqlalchemy
+pytz
+pymysql
+bcrypt
+pyjwt
+cryptography
+redis
+httpx
+cryptography
