@@ -14,5 +14,5 @@ class ProductBase(BaseModel):
     barcode: str
     expiration_date: datetime
     size: str
-    search_keywords: str =Field(examples="라떼,ㄹㄸ")
+    search_keywords: str =Field()
     user_id: Optional[int] = Field(default=None)
